@@ -1,9 +1,26 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Header from './components/Header'
 import Home from './components/Home';
+import Catalog from './components/catalog';
+import News from './components/News';
+import Single from './components/Single';
+
 
 function App() {
   return (
-    <Home />
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/character/:id" element={<Single />} />
+          <Route path="/catalog" element={<Catalog />} />
+          <Route path="/news" element={<News />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

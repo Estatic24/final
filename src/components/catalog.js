@@ -10,9 +10,10 @@ const Catalog = () => {
       <div className="character-grid">
         {characters.map(character => (
           <CharacterCard 
-            key={character.id} 
-            name={character.name} 
-            image={character.image} 
+          key={character.id} 
+          id={character.id}
+          name={character.name} 
+          image={character.image} 
           />
         ))}
       </div>

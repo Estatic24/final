@@ -1,7 +1,7 @@
 import React from 'react';
-import './Home.css'; 
-import Intro from './Intro.mp4';
-import GG from './ГГ.mp4'
+import './css/Home.css'; 
+import Intro from './video/Intro.mp4';
+import GG from './video/ГГ.mp4'
 
 function Home() {
   return (
@@ -12,7 +12,7 @@ function Home() {
           Your browser does not support HTML5 video.
         </video>
         <div className="hero-content">
-          <h1>Welcome to Dota 2</h1>
+          <h1>Welcome to</h1>
         </div>
       </section>
       <section className="modes">
