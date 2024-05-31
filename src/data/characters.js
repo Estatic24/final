@@ -105,7 +105,7 @@ const characters = [
     mana: 243,
     lore: "Pudge is a durable hero who excels at isolating and eliminating enemies with his signature Meat Hook.",
     abilities: [
-      { name: "Meat Hook", image: ability10, description: "Launches a bloody hook to drag a target back to Pudge.", video: video10 },
+      { name: "Meat Hook", image: ability10, description: "Launches a bloody hook to drag.", video: video10 },
       { name: "Rot", image: ability11, description: "Deals damage and slows enemies around Pudge.", video: video11 },
       { name: "Dismember", image: ability12, description: "Channeled disable and damage ability.", video: video12 },
     ]
@@ -121,7 +121,7 @@ const characters = [
     abilities: [
       { name: "Crystal Nova", image: ability13, description: "Damages and slows enemies in an area.", video: video13 },
       { name: "Frostbite", image: ability14, description: "Roots and damages an enemy.", video: video14 },
-      { name: "Freezing Field", image: ability15, description: "Area-of-effect ultimate that deals massive damage over time.", video: video15 },
+      { name: "Freezing Field", image: ability15, description: "Area-of-effect ultimate that deals massive damage.", video: video15 },
     ]
   },
   {
@@ -135,7 +135,7 @@ const characters = [
     abilities: [
       { name: "Frost Arrows", image: ability16, description: "Imbues arrows with ice, slowing the enemy.", video: video16 },
       { name: "Gust", image: ability17, description: "Silences and knocks back enemies.", video: video17 },
-      { name: "Marksmanship", image: ability18, description: "Increases agility and grants a chance to deal bonus damage.", video: video18 },
+      { name: "Marksmanship", image: ability18, description: "Increases agility and grants a chance to deal.", video: video18 },
     ]
   },
 ];
