@@ -63,7 +63,7 @@ const characters = [
     mana: 180,
     lore: "Anti-Mage is a versatile agility hero whose abilities counter mana-dependent heroes.",
     abilities: [
-      { name: "Mana Void", image: ability1, description: "Burns an opponent's mana on each attack.", video: video1 },
+      { name: "Mana Void", image: ability1, description: "Burns an opponent's mana on attack.", video: video1 },
       { name: "Blink", image: ability2, description: "Short distance teleportation.", video: video2 },
       { name: "Counterspell", image: ability3, description: "Increases magic resistance.", video: video3 },
     ]
