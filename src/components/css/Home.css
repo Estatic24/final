@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  padding-top: 60px; /* Добавим отступ, чтобы не перекрывать header */
+  padding-top: 60px;
 }
 
 .hero-content {

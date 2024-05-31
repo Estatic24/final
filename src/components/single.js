@@ -7,7 +7,6 @@ function Single() {
   const { id } = useParams();
   const character = characters.find(c => c.id === parseInt(id));
 
-  // Использование useMemo для создания массива ссылок
   const videoRefs = useMemo(() => character ? character.abilities.map(() => React.createRef()) : [], [character]);
 
   if (!character) {

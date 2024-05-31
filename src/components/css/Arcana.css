@@ -16,12 +16,12 @@
 .price-input {
     width: 80%;
     padding: 10px;
-    margin: 20px auto; /* Center horizontally */
+    margin: 20px auto; 
     background-color: #2b2b2b;
     color: #ddd;
     border: 2px solid #b71c1c;
     border-radius: 5px;
-    display: block; /* Makes it easier to manage width */
+    display: block; 
 }
 
 .calculate-button {
@@ -32,8 +32,8 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    display: block; /* Makes it easier to manage width */
-    margin: 10px auto; /* Center horizontally */
+    display: block;
+    margin: 10px auto; 
 }
 
 .calculate-button:hover {
@@ -52,7 +52,7 @@
     bottom: 0;
     width: 100%;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background to improve readability */
+    background: rgba(0, 0, 0, 0.7); 
     text-align: center;
 }
 

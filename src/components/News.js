@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/News.css'; 
 import back from './img/DOTANews.jpg';
-import newsData from '../data/newsData';  // Путь к файлу данных может отличаться
+import newsData from '../data/newsData'; 
 
 function News() {
     return (

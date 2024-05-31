@@ -86,7 +86,7 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    flex: 1 1 calc(33.333% - 1.5rem); /* Flex item для горизонтального расположения */
+    flex: 1 1 calc(33.333% - 1.5rem);
     max-width: calc(33.333% - 1.5rem);
   }
   
@@ -96,7 +96,7 @@
   }
   
   .ability-card img {
-    width: 80px; /* Уменьшите размер изображения */
+    width: 80px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 0.5rem;

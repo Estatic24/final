@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './css/Arcana.css';
 import back from './video/backVideo.MP4';
-import { arcanaList, findArcanaByPrice } from '../data/arcanaData'; // Убедитесь в правильности пути импорта
-
+import { arcanaList, findArcanaByPrice } from '../data/arcanaData';
 function Arcana() {
     const [price, setPrice] = useState('');
     const [arcana, setArcana] = useState(null);
