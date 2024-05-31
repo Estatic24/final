@@ -1,29 +1,18 @@
 import React from 'react';
-import './Home.css'; 
-import Intro from './Intro.mp4';
-import GG from './ГГ.mp4'
+import './css/Home.css'; 
+import Intro from './video/Intro.mp4';
+import GG from './video/ГГ.mp4'
 
 function Home() {
   return (
     <div className="home">
-       <header className="main-header">
-        <nav>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#modes">Game Modes</a></li>
-            <li><a href="#championship">Championship</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
       <section className="hero">
         <video autoPlay muted loop id="bg-video">
           <source src={Intro} type="video/mp4" />
           Your browser does not support HTML5 video.
         </video>
         <div className="hero-content">
-          <h1>Welcome to Dota 2</h1>
+          <h1>Welcome to</h1>
         </div>
       </section>
       <section className="modes">

@@ -1,9 +1,8 @@
-/* News.css */
 .news-container {
     width: 100%;
     margin: auto;
-    background-color: #121212; /* Темный фон для контейнера */
-    color: #e0e0e0; /* Светлый текст для контраста */
+    background-color: #121212; 
+    color: #e0e0e0; 
     font-family: 'Arial', sans-serif;
 }
 
@@ -11,26 +10,24 @@
     width: 100%;
     height: auto;
     display: block;
-    border-bottom: 4px solid #b71c1c; /* Красная линия под изображением в стиле Dota 2 */
+    border-bottom: 4px solid #b71c1c;
 }
-
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Создаем сетку 2 на 2 */
+    grid-template-columns: repeat(2, 1fr); 
     grid-gap: 20px;
     padding: 20px;
 }
 
 .grid-item {
-    background-color: #1a1a1a; /* Черный цвет для элементов сетки */
-    border: 2px solid #b71c1c; /* Красная граница в стиле Dota 2 */
+    background-color: #1a1a1a; 
+    border: 2px solid #b71c1c; 
     padding: 15px;
     border-radius: 5px;
-    transition: transform 0.3s ease; /* Плавное увеличение при наведении */
+    transition: transform 0.3s ease; 
 }
-
 .grid-item:hover {
-    transform: scale(1.05); /* Увеличение элемента при наведении */
+    transform: scale(1.05); 
 }
 
 .grid-item img {
@@ -42,11 +39,10 @@
 .grid-item h3 {
     margin: 0 0 10px 0;
     font-size: 18px;
-    color: #ffffff; /* Белый цвет текста */
-    text-shadow: 1px 1px 2px #000; /* Тень для текста, чтобы улучшить читаемость */
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000; 
 }
-
 .grid-item p {
     font-size: 14px;
-    color: #ccc; /* Серый цвет текста */
+    color: #ccc; 
 }

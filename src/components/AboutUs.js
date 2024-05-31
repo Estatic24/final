@@ -1,15 +1,13 @@
 import React from 'react';
-import './AboutUs.css'; // Подключаем стили
+import './AboutUs.css';
 
 function AboutUs() {
     return (
         <div className="about-container">
-            {/* Фотография в верхней части */}
             <div className="about-image">
                 <img src="https://via.placeholder.com/800x300" alt="Dota 2 Battle" />
             </div>
             
-            {/* Информация о двух людях */}
             <div className="people-info">
                 <div className="person">
                 <img src="https://via.placeholder.com/100x100" alt="Асхат" class="person-photo"/>
@@ -20,14 +18,13 @@ function AboutUs() {
                 </div>
                 <div className="person">
                 <img src="https://via.placeholder.com/100x100" alt="Олжас" class="person-photo"/>
-                    <h3>ЧОлжас</h3>
+                    <h3>Олжас</h3>
                     <p>Роль: Саппорт</p>
                     <p>Любимый герой: Crystal Maiden</p>
                     <p>Описание: описание.</p>
                 </div>
             </div>
 
-            {/* Контактная информация */}
             <div className="contacts">
                 <h3>Контакты</h3>
                 <p>Email: info@dota2team.com</p>

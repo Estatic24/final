@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Arcana.css'; // Подключаем стили
-import back from './backVideo.MP4'
+import back from './video/backVideo.MP4'
 
 function Arcana() {
     const [price, setPrice] = useState('');

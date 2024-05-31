@@ -1,4 +1,4 @@
-#bg-video {
+.background-video {
     position: fixed;
     top: 0;
     left: 0;
@@ -6,27 +6,22 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+.arcana-wrapper {
+    position: relative;
+    height: 100vh;
     overflow: hidden;
-  }
-
-  .arcana-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #1e1e1e;
-    color: #c2c2c2;
-    font-family: 'Arial', sans-serif;
 }
 
 .price-input {
     width: 80%;
     padding: 10px;
-    margin: 20px 0;
+    margin: 20px auto; /* Center horizontally */
     background-color: #2b2b2b;
     color: #ddd;
     border: 2px solid #b71c1c;
     border-radius: 5px;
+    display: block; /* Makes it easier to manage width */
 }
 
 .calculate-button {
@@ -37,6 +32,8 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    display: block; /* Makes it easier to manage width */
+    margin: 10px auto; /* Center horizontally */
 }
 
 .calculate-button:hover {
@@ -48,4 +45,18 @@
     height: auto;
     margin-top: 20px;
     border: 3px solid #b71c1c;
+}
+
+.arcana-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background to improve readability */
+    text-align: center;
+}
+
+.arcana-info {
+    text-align: center;
+    color: #fff;
 }

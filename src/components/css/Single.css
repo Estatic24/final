@@ -1,0 +1,121 @@
+.single-character {
+    padding: 3rem 2rem;
+    background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+    text-align: left;
+    width: 80vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-top: 5px solid #ff4500;
+    border-bottom: 5px solid #ff4500;
+  }
+  
+  .character-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .character-info {
+    max-width: 50%;
+  }
+  
+  .character-info h1 {
+    font-size: 3em;
+    margin-bottom: 0.5rem;
+    color: #ff4500;
+  }
+  
+  .character-info p {
+    font-size: 1.2em;
+    margin: 0.5rem 0;
+  }
+  
+  .abilities-preview {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .ability-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+  }
+  
+  .character-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .character-lore {
+    margin-top: 2rem;
+  }
+  
+  .character-lore h2 {
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+    color: #ff4500;
+  }
+  
+  .character-lore p {
+    font-size: 1.2em;
+    line-height: 1.8;
+  }
+  
+  .character-abilities {
+    margin-top: 2rem;
+  }
+  
+  .character-abilities h2 {
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+    color: #ff4500;
+  }
+  
+  .abilities-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .ability-card {
+    background-color: #333333;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 1 1 calc(33.333% - 1.5rem); /* Flex item для горизонтального расположения */
+    max-width: calc(33.333% - 1.5rem);
+  }
+  
+  .ability-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+  }
+  
+  .ability-card img {
+    width: 80px; /* Уменьшите размер изображения */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ability-card h3 {
+    font-size: 1.5em;
+    color: #ff4500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ability-card p {
+    font-size: 1.1em;
+    margin-bottom: 1rem;
+  }
+  
+  .ability-card video {
+    max-width: 100%;
+    border: 2px solid #ff4500;
+    border-radius: 10px;
+  }
+  

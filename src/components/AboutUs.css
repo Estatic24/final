@@ -1,14 +1,14 @@
 .about-container {
     font-family: 'Arial', sans-serif;
-    background-color: #0e1112; /* Темный фон, характерный для Dota 2 */
-    color: #ddd; /* Светлый текст для контраста */
+    background-color: #0e1112; 
+    color: #ddd; 
     padding: 20px;
 }
 
 .about-image img {
     width: 100%;
     height: auto;
-    border-bottom: 3px solid #ff4200; /* Красная полоса в стиле Dota 2 */
+    border-bottom: 3px solid #ff4200; 
 }
 
 .people-info {
@@ -16,7 +16,7 @@
     justify-content: space-around;
     margin-top: 20px;
     padding: 20px;
-    background-color: #1a1d1f; /* Чуть более светлый фон для секции людей */
+    background-color: #1a1d1f; 
 }
 
 .person {
@@ -25,8 +25,13 @@
     margin: 100px;
     width: 2000px;
     text-align: center;
-}
+    border-radius: 15 px;
+    transition: transform 0.5s ease;
 
+}
+.person:hover {
+    transform: scale(1.05); 
+}
 .person h3 {
     margin-top: 0;
 }
@@ -34,8 +39,8 @@
 .person img.person-photo {
     width: 300px;
     height: 300px;
-    border-radius: 50%; /* Для круглой фотографии */
-    object-fit: cover; /* Для обрезки фотографии по размеру */
+    border-radius: 50%; 
+    object-fit: cover; 
     margin-bottom: 10px;
 }
 
@@ -48,9 +53,9 @@
     padding: 20px;
     margin-top: 20px;
     text-align: center;
-    border-top: 3px solid #ff4200; /* Красная линия, как у изображения */
+    border-top: 3px solid #ff4200; 
 }
 
 .contacts h3, .person h3 {
-    color: #ff4200; /* Красный цвет для заголовков, характерный для Dota 2 */
+    color: #ff4200; 
 }
