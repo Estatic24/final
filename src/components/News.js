@@ -1,6 +1,5 @@
-// src/components/News.js
 import React from 'react';
-import './News.css'; 
+import './css/News.css'; 
 import back from './img/DOTANews.jpg';
 import newsData from '../data/newsData';  // Путь к файлу данных может отличаться
 
