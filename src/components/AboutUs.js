@@ -50,14 +50,14 @@ function AboutUs() {
                     <h3>Асхат</h3>
                     <p>Роль: Керри</p>
                     <p>Любимый герой: Anti-Mage</p>
-                    <p>Описание: описание.</p>
+                    <p>Описание: супер айдол корейцев(краш 8 классниц).</p>
                 </div>
                 <div className="person">
                     <img src={olzhas} alt="Олжас" className="person-photo" />
                     <h3>Олжас</h3>
                     <p>Роль: Тройка</p>
                     <p>Любимый герой: Pudge</p>
-                    <p>Описание: описание.</p>
+                    <p>Описание: просто самый красивый человек.</p>
                 </div>
             </div>
             <div className="contact-form">

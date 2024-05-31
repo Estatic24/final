@@ -3,7 +3,7 @@ import Monkey from '..//components/img/Monkey King.jpg';
 import Zeus from '..//components/img/zeus.jpg';
 import Legion from '..//components/img/Legion Commander.jpg';
 import Rubick from '..//components/img/Rubick.jpg';
-import Pudge from '..//components/img/pudge.png';
+import Pudge from '..//components/img/Pudge.jpg';
 import Phantom from '..//components/img/Phantom Assasin.jpg';
 import Windranger from '..//components/img/Windranger.jpg';
 export const arcanaList = {
